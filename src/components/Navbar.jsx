@@ -11,11 +11,12 @@ const Navbar = () => {
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="" />
       </div>
-      <div className="m-8 flex justify-center items-center gap-4 text-3xl ">
-        <FaLinkedin />
-        <FaGithub />
-        <FaSquareXTwitter />
-        <FaInstagram />
+      <div className="m-8 flex justify-center items-center gap-4 text-3xl "> 
+      <a href="https://www.linkedin.com/in/gaurav-dotiyal-a93541255/" target="_blank" rel="noopener noreferrer"> <FaLinkedin /></a>
+      <a href="https://github.com/gauravdotiyal" target="_blank" rel="noopener noreferrer"> <FaGithub /></a>
+      <a href="https://www.instagram.com/grvdotiyal/" target="_blank" rel="noopener noreferrer"> <FaInstagram /></a>
+      <a href="https://x.com/Dotiyal_Gaurav" target="_blank" rel="noopener noreferrer"> <FaSquareXTwitter /></a>
+         
       </div>
     </nav>
   );
