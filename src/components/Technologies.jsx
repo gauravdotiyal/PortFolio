@@ -21,7 +21,7 @@ const Technologies = () => {
           <SiMongodb className="text-7xl text-green-500" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <DiMysql className="text-7xl text-sky-500" />
+          <DiMysql className="text-7xl text-sky-500 "  />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <FaNodeJs className="text-7xl text-green-500" />
